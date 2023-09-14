@@ -1,4 +1,4 @@
-# php-alphacount-cli
+# PHP Alphabet Counter CLI app
 Simple PHP CLI app for some small tasks
 
 ## Usage 
