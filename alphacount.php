@@ -3,6 +3,20 @@
 <?php 
 
     $text = $argv[1];
-    $total_chars = strlen($text);
+    
+    $total_alphabet = alphaCount($text);
+    print "Total Character count in $text is : $total_alphabet\n";
 
-    print 'Total Character count in '.$text. ' is : '. $total_chars. PHP_EOL;
+    function alphaCount(string $text): int {
+        // turns string into array
+        $text_arr = str_split($text);
+
+        $total = 0;
+        foreach($text_arr as $char) {
+            // check if character is alphabet or not. returns boolean value
+            if(ctype_alpha($char))
+                $total++;
+        }
+
+        return $total;
+    }
