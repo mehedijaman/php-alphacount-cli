@@ -1,0 +1,16 @@
+{
+    "name": "mehedi/php-alphacount-cli",
+    "description": "PHP Alphacount CLI App",
+    "autoload": {
+        "psr-4": {
+            "Mehedi\\PhpAlphacountCli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehedi Jaman",
+            "email": "mail4mjaman@gmail.com"
+        }
+    ],
+    "require": {}
+}
